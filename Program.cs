@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -30,7 +31,7 @@ namespace ConsoleApp9
             //Console.WriteLine("Time: " + watch.ElapsedMilliseconds);
             #endregion
             #region Question 02
-            
+
             //Console.Write("Age: ");
             //int age = int.Parse(Console.ReadLine());
             //Console.Write("Day (6=Fri, 7=Sat): ");
@@ -45,15 +46,44 @@ namespace ConsoleApp9
             //else if (age <= 59) price = 50;
             //else price = 25;
 
-            
+
             //if (price > 0 && (day == 6 || day == 7)) price = price + 10;
 
-            
+
             //if (student == "yes") price = price * 0.8;
 
             //Console.WriteLine("Final Price: " + price);
             #endregion
+            #region Question 03
 
+            
+            //int score = 85;
+
+            
+            //switch (score)
+            //{
+            //    case 100:
+            //        Console.WriteLine("Perfect");
+            //        break;
+            //    case 90:
+            //        Console.WriteLine("Excellent");
+            //        break;
+            //    default:
+            //        Console.WriteLine("Keep trying");
+            //        break;
+            //}
+
+
+            //string result = score switch
+            //{
+            //    100 => "Perfect",
+            //    90 => "Excellent",
+            //    _ => "Keep trying" 
+            //};
+
+            //Console.WriteLine(result);
+
+            #endregion
 
         }
     }
