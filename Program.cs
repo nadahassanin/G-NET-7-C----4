@@ -93,7 +93,7 @@ namespace ConsoleApp9
             // Use it for very simple things only.
             #endregion
             #region Question 05
-            
+
             //int count = 0;
             //while (count < 5)
             //{
@@ -114,7 +114,38 @@ namespace ConsoleApp9
             //    if (count == 5) Console.WriteLine("Locked!");
             //}
             #endregion
+            #region Question 06
+            
+            //int[] scores = { 45, 92, 38, 75, 50, 95 };
 
+           
+            //foreach (int s in scores)
+            //{
+            //    if (s < 50) Console.WriteLine("Fail: " + s);
+            //}
+
+           
+            //foreach (int s in scores)
+            //{
+            //    if (s > 90)
+            //    {
+            //        Console.WriteLine("Found: " + s);
+            //        break;
+            //    }
+            //}
+
+          
+            //double total = 0; int students = 0;
+            //foreach (int s in scores)
+            //{
+            //    if (s >= 40)
+            //    {
+            //        total += s;
+            //        students++;
+            //    }
+            //}
+            //Console.WriteLine("Average: " + (total / students));
+            #endregion
         }
     }
 }
