@@ -88,10 +88,33 @@ namespace ConsoleApp9
             //int score = 85;
             //string status = (score >= 50) ? "Passed" : "Failed";
 
-        
+
             // It's shorter, but if-else is easier to read for beginners. 
             // Use it for very simple things only.
             #endregion
+            #region Question 05
+            
+            //int count = 0;
+            //while (count < 5)
+            //{
+            //    Console.WriteLine("Enter Password: ");
+            //    string p = Console.ReadLine();
+
+            //    if (p.Length >= 8 && !p.Contains(" "))
+            //    {
+            //        Console.WriteLine("Accepted!");
+            //        break;
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("Wrong! Try again.");
+            //        count++;
+            //    }
+
+            //    if (count == 5) Console.WriteLine("Locked!");
+            //}
+            #endregion
+
         }
     }
 }
