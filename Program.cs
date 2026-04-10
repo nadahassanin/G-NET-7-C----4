@@ -56,10 +56,10 @@ namespace ConsoleApp9
             #endregion
             #region Question 03
 
-            
+
             //int score = 85;
 
-            
+
             //switch (score)
             //{
             //    case 100:
@@ -84,7 +84,14 @@ namespace ConsoleApp9
             //Console.WriteLine(result);
 
             #endregion
+            #region Question 04
+            //int score = 85;
+            //string status = (score >= 50) ? "Passed" : "Failed";
 
+        
+            // It's shorter, but if-else is easier to read for beginners. 
+            // Use it for very simple things only.
+            #endregion
         }
     }
 }
